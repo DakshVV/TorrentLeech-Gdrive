@@ -1,4 +1,4 @@
-# for support join here [TorrentLeech-Gdrive](https://telegram.dog/torrentleechgdrivesupport)
+# for support join here [TorrentLeech-Gdrive](https://telegram.dog/GBotStore)
 # working example group [Leech Here](https://telegram.dog/torrentleechgdrive)
 
 # Telegram Torrent Leecher 🔥🤖
@@ -17,11 +17,13 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
     ✓ You can also upload files downloaded from /ytdl command to gdrive using `/ytdl gdrive` command.
     ✓ You can also deploy this on your VPS
     ✓ Option to select either video will be uploaded as document or streamable
+    ✓ Added /renewme command to clear the downloads which are not deleted automatically.
+    ✓ Added support for youtube playlist 😐
     ✓
 
 ### Credit goes to SpEcHiDe for his Publicleech repo.
 
-## installing
+## installing...
 
 ### The Easy Way (Fork this repo and tap on deploy button)
 
@@ -154,7 +156,11 @@ and everythin except `[NAME]`
 
 * `/ytdl`: This command should be used as reply to a [supported link](https://ytdl-org.github.io/youtube-dl/supportedsites.html)
 
+* `/pytdl`: This command will download videos from youtube playlist link and will upload to telegram.
+
 * `/ytdl gdrive`: This will download and upload to your cloud.
+
+* `/pytdl gdrive`: This download youtube playlist and upload to your cloud.
 
 * `/leech`: This command should be used as reply to a magnetic link, a torrent link, or a direct link. [this command will SPAM the chat and send the downloads a seperate files, if there is more than one file, in the specified torrent]
 
@@ -185,6 +191,8 @@ and everythin except `[NAME]`
 * `/tleech untar`: This will untar the .tar telegram file and upload to cloud.
 
 * `/getsize`: This will give you total size of your destination folder in cloud.
+
+* `/renewme`: This will clear the remains of downloads which are not getting deleted after upload of the file or after /cancel command. 
 
 
 * [Only work with direct link for now]It is like u can add custom name as prefix of the original file name.
