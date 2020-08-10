@@ -1,5 +1,5 @@
 # for support join here [TorrentLeech-Gdrive](https://telegram.dog/GBotStore)
-# working example group [Leech Here](https://telegram.dog/torrentleechgdrive)
+# working example group [Leech Here](https://telegram.dog/GBotStore)
 
 # Telegram Torrent Leecher 🔥🤖
 
@@ -25,9 +25,25 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 
 ## installing...
 
-### The Easy Way (Fork this repo and tap on deploy button)
+### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+#### STEPS (I did this to avoid using of same button multiple times)
+
+a)You have to fork this repo at first(Don't know how to🤔, Then google it😐)
+
+b)Find `app.jso`. 🧐
+
+c)Tap on that. 😬
+
+d)Tap to edit and just add `n` at last of name (Don't touch code🤦). ✍️
+
+e)It should look like `app.json`. 🎉
+
+f)Then tap 👇👇
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) #Revived
+
+Better buy a vps 😐 and follow [this](https://github.com/gautamajay52/TorrentLeech-Gdrive#process-to-run-this-bot-on-vps)
 
 ### The Legacy Way
 Simply clone the repository and run the main file:
@@ -69,7 +85,7 @@ class Config(Config):
 
 * `DESTINATION_FOLDER`: Name of your folder in ur respective drive where you want to upload the files using the bot.
 
-* `OWNER_ID`: ID of the bot owner, He/she can be able to access bot in bot only mode too.
+* `OWNER_ID`: ID of the bot owner, He/she can be abled to access bot in bot only mode too(private mode).
 
 ##### Set Rclone
 
@@ -147,7 +163,11 @@ and everythin except `[NAME]`
 
 * `YTDL_COMMAND`
 
+* `GLEECH_COMMAND`
+
 * `TELEGRAM_LEECH_COMMAND_G`
+
+* `PYTDL_COMMAND_G`
 
 * `UPLOAD_AS_DOC`: Takes two option True or False. If True file will be uploaded as document. This is for people who wants video files as document instead of streamable.
 
@@ -211,8 +231,8 @@ the file will be uploaded as `new.txt`.
 
 - Clone this repo:
 ```
-git clone https://github.com/gautamajay52/TorrentLeech-Gdrive 
-cd TorrentLeech-Gdrive
+git clone https://github.com/gautamajay52/TorrentLeech-Gdrive torrentleech-gdrive
+cd torrentleech-gdrive
 ```
 
 - Install requirements
@@ -236,11 +256,11 @@ sudo dockerd
 ```
 - Build Docker image:
 ```
-sudo docker build . -t TorrentLeech-Gdrive
+sudo docker build . -t torrentleech-gdrive
 ```
 - Run the image:
 ```
-sudo docker run TorrentLeech-Gdrive
+sudo docker run torrentleech-gdrive
 ```
 
 
